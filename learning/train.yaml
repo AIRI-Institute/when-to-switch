@@ -1,0 +1,31 @@
+name: pomapf_env-grid-memory-multiagent-full-v2
+
+global_settings:
+  use_wandb: True
+experiment_settings:
+  save_every_sec: 120
+  encoder_custom: pogema_residual
+  train_for_env_steps: 1000000000
+  pogema_encoder_num_filters: 64
+  hidden_size: 512
+async_ppo:
+  experiment_summaries_interval: 20
+  ppo_epochs: 1
+  max_grad_norm: 5.0
+  batch_size: 4096
+  num_workers: 12
+  num_envs_per_worker: 2
+  with_vtrace: False
+  max_policy_lag: 100
+  exploration_loss_coeff: 0.01
+  with_pbt: False
+  use_rnn: True
+
+environment:
+  name: POMAPF-v0
+  grid_memory_obs_radius: 7
+  grid_config:
+    map_name: '(wc3-[A-P]|sc1-[A-S]|sc1-TaleofTwoCities|street-[A-P]|mazes-s[0-9]_|mazes-s[1-3][0-9]_|random-s[0-9]_|random-s[1-3][0-9]_)'
+    max_episode_steps: 512
+    obs_radius: 5
+    num_agents: 64
