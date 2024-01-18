@@ -18,7 +18,7 @@ pip install -r docker/requirements.txt
 ## Inference Example
 
 
-To download pretrained weights, use this [link](https://drive.google.com/file/d/1LMu2YOxzQbWDDacQaV7R-Pizkvjpp8R_/view?usp=sharing)
+To download pretrained weights, use this [link 137MB](https://github.com/AIRI-Institute/when-to-switch/releases/download/v0/weights.zip)
 
 Execute **EPOM**, **RePlan**, **ASwitcher**, **LSwitcher**, and **HSwitcher** to generate animations using pre-trained
 weights with the following command:
