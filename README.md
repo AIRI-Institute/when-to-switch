@@ -1,4 +1,12 @@
-# When to Switch: Planning and Learning For Partially Observable Multi-Agent Pathfinding
+<div align="center">
+
+[![Example](https://raw.githubusercontent.com/Tviskaron/pogema-svg/2d4a0ebe51344919c9644ab363d9776084e25b8e/when-to-switch-ep00001-half-random.svg)](https://github.com/AIRI-Institute/when-to-switch) 
+
+**When to Switch: Planning and Learning For Partially Observable Multi-Agent Pathfinding**
+
+</div> 
+
+
 
 This repository provides the implementation of the "When to Switch" paper, offering various policies and algorithms
 designed to address the challenging problem of finding non-conflicting paths for a set of agents in an environment that
@@ -6,6 +14,8 @@ is only partially observable to each agent (PO-MAPF).
 The repository includes two main policies: one is based on search-based re-planning (**RePlan**), and the other is based
 on reinforcement learning (**EPOM**).
 Additionally, the repository features three implementations of mixed policies, which switch between **RePlan** and **EPOM**.
+
+
 
 ## Installation
 
