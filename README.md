@@ -1,6 +1,6 @@
 <div align="center">
 
-[![Example](https://raw.githubusercontent.com/Tviskaron/pogema-svg/2d4a0ebe51344919c9644ab363d9776084e25b8e/when-to-switch-ep00001-half-random.svg)](https://github.com/AIRI-Institute/when-to-switch) 
+[![Example](https://raw.githubusercontent.com/Tviskaron/pogema-svg/main/when-to-switch-ep00001-half-random.svg)](https://github.com/AIRI-Institute/when-to-switch) 
 
 **When to Switch: Planning and Learning For Partially Observable Multi-Agent Pathfinding**
 
